@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Skill Sync",
+  "version": "1.0",
+  "description": "Categorize Claude Skills and use them in Gemini for free.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gemini.google.com/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "skill-sync@example.com"
+    }
+  }
+}

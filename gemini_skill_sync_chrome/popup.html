@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 320px; font-family: -apple-system, sans-serif; background: #1a1a1a; color: #eee; padding: 15px; }
+    .btn { background: #3b82f6; color: white; border: none; padding: 10px; border-radius: 6px; cursor: pointer; width: 100%; margin-bottom: 10px; font-weight: bold; }
+    .btn-secondary { background: #444; margin-top: 5px; }
+    .skill-card { background: #2a2a2a; border-radius: 6px; padding: 10px; margin-bottom: 8px; border: 1px solid #333; }
+    .skill-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+    .cat-tag { font-size: 10px; background: #555; padding: 2px 6px; border-radius: 10px; }
+    select { background: #333; color: white; border: 1px solid #555; font-size: 11px; padding: 2px; }
+    #import-input { display: none; }
+  </style>
+</head>
+<body>
+  <label for="import-input" class="btn" style="display: block; text-align: center;">📂 Import Skill Folder</label>
+  <input type="file" id="import-input" webkitdirectory directory multiple>
+  
+  <button id="export-btn" class="btn btn-secondary">💾 Export Skill Groups</button>
+
+  <div id="skill-list" style="margin-top: 15px;"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
