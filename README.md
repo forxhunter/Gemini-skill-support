@@ -32,10 +32,12 @@ Organize, categorize, and inject thousands of Claude/ChatGPT prompts directly in
 4. Drag and drop the `gemini_skill_sync_chrome` folder.
 5. Refresh your Gemini website.
 ### Firefox
-1. Go to `about:debugging`.
-2. Click **This Firefox**.
-3. Click **Load Temporary Add-on**.
-4. Select `gemini_skill_sync/manifest.json`.
+1. Download the XPI file from right.
+2. Go to `about:debugging`.
+3. Click **This Firefox**.
+4. Click **Load Temporary Add-on**.
+5. Select `gemini_skill_sync_firefox/gemini_skill_sync_firefox-1.0.xpi`.
+6. Refresh your Gemini website.
 
 ## 🛠️ Usage
 1. Open [gemini.google.com](https://gemini.google.com).
