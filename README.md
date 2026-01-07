@@ -31,7 +31,9 @@ Organize, categorize, and inject thousands of Claude/ChatGPT prompts directly in
 3. Enable **Developer Mode** (top right).
 4. Drag and drop the `gemini_skill_sync_chrome` folder.
 5. Refresh your Gemini website.
-### Firefox
+
+### Firefox/Zen
+
 1. Download the XPI file from right.
 2. Go to `about:debugging`.
 3. Click **This Firefox**.
