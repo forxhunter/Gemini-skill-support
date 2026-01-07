@@ -26,12 +26,11 @@ Organize, categorize, and inject thousands of Claude/ChatGPT prompts directly in
 ## 📦 Installation
 
 ### Chrome / Edge / Brave
-1. Clone this repo or download the ZIP.
+1. Download the ZIP.
 2. Go to `chrome://extensions`.
 3. Enable **Developer Mode** (top right).
-4. Click **Load Unpacked**.
-5. Select the `gemini_skill_sync_chrome` folder.
-
+4. Drag and drop the `gemini_skill_sync_chrome` folder.
+5. Refresh your Gemini website.
 ### Firefox
 1. Go to `about:debugging`.
 2. Click **This Firefox**.
