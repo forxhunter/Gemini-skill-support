@@ -4,7 +4,7 @@
 Organize, categorize, and inject thousands of Claude/ChatGPT prompts directly into the [Google Gemini](https://gemini.google.com) Web UI.  
 **100% Free • Local-Only • No API Keys Required**
 
-![Skill Manager Preview](https://via.placeholder.com/800x400?text=Skill+Manager+Preview+Image) 
+![Skill Manager Preview](./figures/main.png) 
 *(Add a screenshot of your beautiful modal here!)*
 
 ## ✨ Features

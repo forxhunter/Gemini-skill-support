@@ -29,7 +29,8 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "skill-sync@example.com"
+      "id": "skill-sync@example.com",
+      "data_collection_permissions": false
     }
   }
 }
